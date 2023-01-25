@@ -1,7 +1,7 @@
 const sonarqubeScanner = require('sonarqube-scanner');
 
 sonarqubeScanner({
-  serverUrl: 'https://github.com/icicibank-org-nov/nodejs-app-mss-1.git',
+  serverUrl: 'http://172.31.2.189:9182/lokeshreddy/',
        options : {
 	    'sonar.projectDescription': 'This is a Node JS application',
 	    'sonar.projectName': 'Node JS Application - Sample',
